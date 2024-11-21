@@ -1,0 +1,56 @@
+{
+  "name": "brook-code-theme",
+  "version": "1.0.0",
+  "displayName": "Brook Code Theme",
+  "publisher": "weecraft",
+  "description": "A mono chrome with minimal looks and simple styles code editor themes for light & dark environments for perfect developer productivity",
+  "keywords": [
+    "visual studio code",
+    "themes",
+    "light",
+    "dark",
+    "blaze",
+    "modern",
+    "minimal",
+    "simple",
+    "ghost"
+  ],
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "email": "nyomansunima@gmail.com",
+    "name": "Weecraft",
+    "url": "https://weecraft.club"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weecraft/ghost-code-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/weecraft/ghost-code-theme/issues",
+    "email": "nyomansunima@gmail.com"
+  },
+  "homepage": "https://github.com/weecraft/ghost-code-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Brook Code Light",
+        "uiTheme": "vs",
+        "path": "./themes/brook-code-light.json"
+      },
+      {
+        "label": "Brook Code Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/brook-code-dark.json"
+      }
+    ]
+  }
+}
