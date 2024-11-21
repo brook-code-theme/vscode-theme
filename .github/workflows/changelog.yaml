@@ -1,0 +1,29 @@
+# This workflow generates a changelog for a new release.
+#
+# It uses the BobAnkh/auto-generate-changelog action to automatically generate a changelog
+# based on the commit messages since the last release. The changelog is then committed
+# to the repository.
+#
+# The workflow is triggered when a new release is created or edited on GitHub.
+
+
+name: Generate changelog
+
+on:
+  release:
+    types: [created, edited]
+
+jobs:
+  generate-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update changelog
+        uses: BobAnkh/auto-generate-changelog@v1
+          with:
+            ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+            COMMIT_MESSAGE: '🔖 docs(CHANGELOG): update release notes'
+            TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'

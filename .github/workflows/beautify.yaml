@@ -1,0 +1,26 @@
+# This GitHub Actions workflow formats the source code of the project.
+#
+# It runs on every push and pull request to the repository, and uses the
+# `bun` tool to format the code according to the project's standards.
+#
+
+name: Beautify Code
+
+on: [push, pull_request]
+
+jobs:
+  format:
+    name: Format the source Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup bun environment
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependenciescies
+        run: bun install
+
+      - name: Format the code
+        run: bun run format

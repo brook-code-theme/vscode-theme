@@ -52,5 +52,11 @@
         "path": "./themes/brook-code-dark.json"
       }
     ]
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
