@@ -10,8 +10,9 @@
 name: Release & Publish
 
 on:
-  tags:
-    - 'v*'
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   release:
@@ -35,8 +36,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: [release]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
