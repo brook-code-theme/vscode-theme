@@ -10,7 +10,7 @@ name: Generate changelog
 
 on:
   release:
-    types: [created, edited]
+    types: [created, edited, published]
 
 permissions:
   contents: write
