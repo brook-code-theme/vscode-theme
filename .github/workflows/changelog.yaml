@@ -6,7 +6,6 @@
 #
 # The workflow is triggered when a new release is created or edited on GitHub.
 
-
 name: Generate changelog
 
 on:
@@ -23,7 +22,7 @@ jobs:
 
       - name: Update changelog
         uses: BobAnkh/auto-generate-changelog@v1
-          with:
-            ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-            COMMIT_MESSAGE: '🔖 docs(CHANGELOG): update release notes'
-            TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'
+        with:
+          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          COMMIT_MESSAGE: '🔖 docs(CHANGELOG): update release notes'
+          TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'
