@@ -39,14 +39,15 @@
     "editor.foldBackground": "#00000000",
     "editor.lineHighlightBackground": "#00000080",
     "editor.lineHighlightBorder": "#00000000",
-    "editor.findMatchBackground": "#7a7a7a27",
-    "editor.findMatchHighlightBackground": "#7a7a7a27",
-    "editor.linkedEditingBackground": "#7a7a7a27",
-    "editor.selectionHighlightBackground": "#7a7a7a27",
-    "editor.wordHighlightBackground": "#7a7a7a27",
-    "editor.wordHighlightStrongBackground": "#7a7a7a27",
-    "editor.stackFrameHighlightBackground": "#7a7a7a27",
-    "editor.focusedStackFrameHighlightBackground": "#7a7a7a27",
+    "editor.findMatchBackground": "#7a7a7a63",
+    "editor.findMatchHighlightBackground": "#7a7a7a63",
+    "editor.linkedEditingBackground": "#7a7a7a63",
+    "editor.selectionHighlightBackground": "#7a7a7a63",
+    "editor.selectionBackground": "#7a7a7a63",
+    "editor.wordHighlightBackground": "#7a7a7a63",
+    "editor.wordHighlightStrongBackground": "#7a7a7a63",
+    "editor.stackFrameHighlightBackground": "#7a7a7a63",
+    "editor.focusedStackFrameHighlightBackground": "#7a7a7a63",
 
     "editorIndentGuide.activeBackground1": "#383838",
     "editorIndentGuide.background1": "#2A2A2A",
@@ -75,16 +76,13 @@
     "editorGutter.addedBackground": "#99FFE4",
     "editorGutter.deletedBackground": "#FF8080",
     "editorGutter.modifiedBackground": "#FFC799",
+    "editorGutter.foldingControlForeground": "#494949",
 
     // diff editor
     "diffEditor.insertedTextBackground": "#99FFE415",
     "diffEditor.insertedLineBackground": "#99FFE415",
     "diffEditor.removedTextBackground": "#FF808015",
     "diffEditor.removedLineBackground": "#FF808015",
-
-    // extension
-    "extensionButton.prominentBackground": "#000000AA",
-    "extensionButton.prominentHoverBackground": "#000000BB",
 
     // input
     "input.background": "#010101",
@@ -98,11 +96,11 @@
     // list and trees
     "list.activeSelectionBackground": "#212121",
     "list.activeSelectionForeground": "#DEDEDE",
-    "list.focusBackground": "#292929",
+    "list.focusBackground": "#212121",
     "list.focusForeground": "#DEDEDE",
     "list.hoverBackground": "#262626",
     "list.hoverForeground": "#DEDEDE",
-    "list.inactiveSelectionBackground": "#291700",
+    "list.inactiveSelectionBackground": "#212121",
     "list.inactiveSelectionForeground": "#DEDEDE",
     "tree.indentGuidesStroke": "#00000000",
 

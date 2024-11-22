@@ -41,8 +41,9 @@
     "editor.lineHighlightBorder": "#00000000",
     "editor.findMatchBackground": "#e6e6e6c0",
     "editor.findMatchHighlightBackground": "#e6e6e6c0",
-    "editor.linkedEditingBackground": "#00000012",
+    "editor.linkedEditingBackground": "#e6e6e6c0",
     "editor.selectionHighlightBackground": "#e6e6e6c0",
+    "editor.selectionBackground": "#e6e6e6c0",
     "editor.wordHighlightBackground": "#e6e6e6c0",
     "editor.wordHighlightStrongBackground": "#e6e6e6c0",
     "editor.stackFrameHighlightBackground": "#e6e6e6c0",
@@ -72,16 +73,13 @@
     "editorGutter.addedBackground": "#3bffcb",
     "editorGutter.deletedBackground": "#ff5959",
     "editorGutter.modifiedBackground": "#ffa962",
+    "editorGutter.foldingControlForeground": "#7A7A7A",
 
     // diff editor
     "diffEditor.removedTextBackground": "#e597af52",
     "diffEditor.insertedTextBackground": "#b7e7a44b",
     "diffEditor.insertedLineBackground": "#aceebb4d",
     "diffEditor.removedLineBackground": "#ffcecb4d",
-
-    // extension
-    "extensionButton.prominentBackground": "#000000AA",
-    "extensionButton.prominentHoverBackground": "#000000BB",
 
     // input
     "input.border": "#f2f2f2",
