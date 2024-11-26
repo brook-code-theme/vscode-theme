@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [v1.0.2](https://github.com/brook-code-theme/vscode-theme/releases/tag/v1.0.2) - 2024-11-26 03:30:59
+
+**Full Changelog**: https://github.com/brook-code-theme/vscode-theme/compare/v1.0.1...v1.0.2
+
+## [v1.0.1](https://github.com/brook-code-theme/vscode-theme/releases/tag/v1.0.1) - 2024-11-22 04:04:40
+
+**Full Changelog**: https://github.com/brook-code-theme/vscode-theme/compare/v1.0.0...v1.0.1
+
 ## [v1.0.0](https://github.com/brook-code-theme/vscode-theme/releases/tag/v1.0.0) - 2024-11-21 14:19:01
 
 **Full Changelog**: https://github.com/brook-code-theme/vscode-theme/commits/v1.0.0
